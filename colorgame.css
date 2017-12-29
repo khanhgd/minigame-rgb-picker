@@ -1,0 +1,66 @@
+body{
+	background-color: #232323;
+	text-align: center;
+	font-family: Courier;
+}
+
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 10%;
+	transition: background 1.0s;
+	-webkit-transition: background 1.0s;
+	-moz-trnsition: background 1.0s;
+}
+
+#container{
+	margin:0 auto;
+	max-width: 600px;
+}
+
+h1{
+	color: white;
+}
+
+#banner{
+	color: white;
+	height: 20%;
+	width: absolute;
+	background-color: #337ab7;
+	padding: 10px;
+
+}
+
+.mouseIn{
+	background-color: green;
+}
+.row{
+	width: absolute;
+	text-align: center;
+	background-color: #eff4fc;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.small-banner{
+	max-width: 600px;
+	margin:0 auto;
+}
+
+#replay{
+	cursor: pointer;
+}
+.selected {
+	background: #337ab7;
+}
+#btnEasy{
+	cursor: pointer;
+}
+#btnHard{
+	cursor: pointer;
+}
+.wrong{
+    background: red;
+}
