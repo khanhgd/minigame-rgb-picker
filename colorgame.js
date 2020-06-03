@@ -84,8 +84,7 @@ function generateRandColors(num){
 		randCorlor = "rgb("+r+", "+g+", "+b+")";
 		arr[i] = randCorlor;
 	};
-	//return arr
-	console.log(arr);
+	console.log('HI, THIS IS SIMPLE APP FOR TESTING DEPLOY');
 	return arr;
 }
 
